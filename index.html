@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8"></meta>
+    <title>Formulario De Encuensta</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main >
+      <section id="text">
+    <h1 id="title">Formulario De Encuensta</h1>
+    <p id="description">Gracias por tomar el tiempo y ayudarnos a mejorar nuestra enseñanza</p>
+    </section>
+    <section id="form">
+      <form id="survey-form">
+        <label id="name-label" for="name">Nombre <input id="name" type="text" placeholder="Ingresa tu nombre"   name="nombre" required/></label>
+         <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Ingresa tu email" name="email" required/></label>
+          <label id="number-label" for="edad" >Edad<input id="number" type="number" placeholder="Ingresa tu edad" name="edad" min="15" max="75" required/></label>
+         <label for="dropdown"">
+           Cual es tu situacion actual?
+           <select class="dropdown" id="dropdown">
+             <option value="">Seleccione una opcion</option>
+             <option value="1">Estudiante</option>
+             <option value="2">Desempleado</option>
+              <option value="3">Trabajador</option>
+           </select>
+         </label>
+         <label id="recomendacion">
+           Recomendarias nuestra plataforma?
+         </label>
+         <label>
+           <input name="recomendacion" type="radio" checked ></input>
+           Por supuesto
+         </label>
+         <label>
+           <input type="radio" name="recomendacion" ></input>
+          Quizas
+         </label>
+         <label>
+           <input type="radio" name="recomendacion"></input>
+           No lo creo
+         </label>
+
+<label for="dropdown2"">
+           Cual es la caracteristica que mas te gusta de nuestra plataforma?
+           <select class="dropdown">
+             <option value="">Seleccione una opcion</option>
+             <option value="1">Metodologia</option>
+             <option value="2">Clases</option>
+              <option value="3">Proyectos</option>
+           </select>
+</label>   
+<div id="flex">   
+<label>En que te gustaria ver una mejoria?</label>   
+<p id="p">(Selecciona todas las que aplican)</p>
+</div>    
+           <label>
+             <input class="" value="1" type="checkbox" required name="proyectos"/> Proyectos
+           </label>
+         </label>
+          <label>
+             <input class="" value="2" type="checkbox" required name+"retos" /> Retos
+           </label>
+            <label>
+             <input class="" value="3" type="checkbox" required name="metodologia"/> Metodologia
+           </label>
+           <label>Deja algun comentario o sugerencia <textarea>Deja tu comentario aqui...</textarea></label>
+<input id="submit" type="submit" value="Submit" />
+         
+      </form>
+
+    </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+#text{
+    text-align: center; 
+  }
+  body{
+    background-color: #3b98a8;
+    color: white;
+    font-family: Tahoma;
+    font-size: 18px;
+  }
+  input, label, textarea, #dropdown{
+    display: block;
+    
+  }
+  
+  input[type="radio"],input[type="checkbox"]{
+    display: unset;
+    width: unset;
+    height: unset;
+    margin: unset;
+  }
+  form{
+    background-color: #053B44;
+    width: 45vw;
+    margin: 45px auto;
+    padding: 35px;
+    min-width: 450px;
+    max-width: 450px
+  }
+  input, .dropdown{
+     margin-top: 10px;
+     margin-bottom: 25px;
+     width: 100%;
+     height: 38px;
+     border-radius: 5px;
+     padding-left: 10px;
+     font-family: Tahoma;
+    font-size: 17px;
+  }
+  
+  label{
+    margin: 15px 0 20px 0;
+  }
+  
+  label[id="recomendacion"], label[for="dropdown2"], label {
+    margin: 32px 0 0 0;
+  }
+  
+  textarea{
+    width:100%;
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 12px;
+    font-family: Tahoma;
+    font-size: 17px;
+    color: gray;
+    margin-top: 15px
+  }
+  #submit{
+    margin-top: 35px;
+    background-color: #f6f6ba;
+    border-color: #f6f6ba;
+    height:45px;
+    }
+    h1{
+      font-family: Serif;
+      margin-top: 50px;
+      font-size: 40px;
+      margin-bottom: 0;
+    }
+    #flex{
+      display: flex;
+    }
+    #p{
+      margin-top:20px;
+      font-size: 15px;
+      color: lightgray;
+      width:30%;
+      margin-left:15px
+    }
+    
